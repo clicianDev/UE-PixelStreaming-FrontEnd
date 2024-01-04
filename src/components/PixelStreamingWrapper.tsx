@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import Menulayout from './MenuLayout'
+import Guidelayout from './GuideLayout'
 import {
     Config,
     AllSettings,
@@ -96,7 +97,15 @@ export const PixelStreamingWrapper = ({
                 }}
             >
               <Menulayout/>
+           
             </div>
+            <div style={{
+                position: 'absolute',
+                left: '80%'
+            }}>
+                   <Guidelayout/>
+            </div>
+         
         </div>
     );
 };

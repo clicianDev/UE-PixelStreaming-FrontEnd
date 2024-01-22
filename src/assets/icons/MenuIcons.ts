@@ -1,19 +1,19 @@
 // @ts-ignore
-import BagIcon from './IC_Bag.png';
+import BagIcon from './menu/IC_Bag.png';
 // @ts-ignore
-import ChatIcon from './IC_Chat.PNG';
+import ChatIcon from './menu/IC_Chat.PNG';
 // @ts-ignore
-import EmojiIcon from './IC_Emoji.PNG';
+import EmojiIcon from './menu/IC_Emoji.PNG';
 // @ts-ignore
-import MapIcon from './IC_Map.PNG';
+import MapIcon from './menu/IC_Map.PNG';
 // @ts-ignore
-import MicIcon from './IC_Mic.PNG';
+import MicIcon from './menu/IC_Mic.PNG';
 // @ts-ignore
-import MuteIcon from './IC_Mute.PNG';
+import MuteIcon from './menu/IC_Mute.PNG';
 // @ts-ignore
-import SpacesIcon from './IC_Spaces.PNG';
+import SpacesIcon from './menu/IC_Spaces.PNG';
 // @ts-ignore
-import ProfileIcon from './Profile.PNG';
+import ProfileIcon from './menu/Profile.PNG';
 
 export const  MenuIcons = {
     bag: BagIcon,

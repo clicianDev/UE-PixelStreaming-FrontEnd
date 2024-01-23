@@ -1,8 +1,9 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 import React, { useEffect, useRef, useState } from 'react';
-import Menulayout from './MenuLayout'
-import Guidelayout from './GuideLayout'
+import Menulayout from './MenuLayout';
+import Guidelayout from './GuideLayout';
+import Login from './Login';
 import {
     Config,
     AllSettings,
@@ -85,7 +86,7 @@ export const PixelStreamingWrapper = ({
                     <div>Click to play</div>
                 </div>
             )}
-            <div
+            {/* <div
                 style={{
                     top: '80%',
                     width: '100%',
@@ -105,7 +106,17 @@ export const PixelStreamingWrapper = ({
             }}>
                    <Guidelayout/>
             </div>
-         
+          */}
+            <div
+                style={{
+                    backgroundImage: 'url("/public/login-bg.PNG")',
+                    backgroundSize: 'cover',
+                    width: '100%',
+                    height: '100vh'
+                }}
+            >
+                <Login />
+            </div>
         </div>
     );
 };
